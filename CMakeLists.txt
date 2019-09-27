@@ -24,8 +24,8 @@ find_package (Qt5 REQUIRED COMPONENTS Widgets Core Gui Network)
 INCLUDE_DIRECTORIES(".\\GeneratedFiles")
 
 set(SRCS main.cpp
-         dialog.ui)
-         dialog.h)
+         dialog.ui
+         dialog.h
          dialog.cpp)
 	 
 set_property(SOURCE UDPListener.cpp PROPERTY SKIP_AUTOMOC ON)	 
